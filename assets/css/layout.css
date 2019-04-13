@@ -1,1 +1,278 @@
 /* should contain general positioning on the page */
+
+/* Container */
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1400px;
+}
+
+  @media screen and (min-width: 961px) and (max-width: 1880px) {
+
+    .container {
+      width: 1200px;
+    }
+
+  }
+
+  @media screen and (min-width: 961px) and (max-width: 1620px) {
+
+    .container {
+      width: 960px;
+    }
+
+  }
+
+  @media screen and (min-width: 961px) and (max-width: 1320px) {
+
+    .container {
+      width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width: 960px) {
+
+    .container {
+      width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width: 736px) {
+
+    .container {
+      width: 100%;
+    }
+
+  }
+
+header {
+  margin: 0 0 2em 0;
+}
+
+  header > p {
+    margin: 1em 0 0 0;
+  }
+
+footer {
+  margin: 2em 0 0 0;
+}
+
+sub {
+  position: relative;
+  top: 0.5em;
+  font-size: 0.8em;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+}
+
+hr {
+  border: 0;
+  border-top: solid 1px #ddd;
+}
+
+blockquote {
+  border-left: solid 0.5em #ddd;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
+
+p, ul, ol, dl, table {
+  margin-bottom: 2em;
+}
+
+br.clear {
+  clear: both;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+  .row > * {
+    box-sizing: border-box;
+  }
+
+.row {
+  margin-top: -40px;
+  margin-left: -40px;
+}
+
+  .row > * {
+    padding: 40px 0 0 40px;
+  }
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  align-items: stretch;
+}
+
+  .row > * {
+    box-sizing: border-box;
+  }
+
+    .row.gtr-uniform > * > :last-child {
+      margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+    .row > * {
+      box-sizing: border-box;
+    }
+
+    .row.gtr-uniform > * > :last-child {
+      margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+    .row > * {
+      box-sizing: border-box;
+    }
+
+    .row.gtr-uniform > * > :last-child {
+      margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+    .row > * {
+      box-sizing: border-box;
+    }
+
+    .row.gtr-uniform > * > :last-child {
+      margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+
+    .row > * {
+      box-sizing: border-box;
+    }
+
+    .row.gtr-uniform > * > :last-child {
+      margin-bottom: 0;
+    }
+}
+
+/* Sections/Article */
+section, article {
+  margin-bottom: 3em;
+}
+
+  section > :last-child,
+  section > .container, section:last-child, article > :last-child,
+  article > .container, article:last-child {
+    margin-bottom: 0;
+  }
+
+  .row > section, .row > article {
+    margin-bottom: 0;
+  }
+
+/* Image */
+.image {
+	display: inline-block;
+	border: 0;
+}
+
+	.image img {
+		display: block;
+		width: 100%;
+	}
+
+
+/* List */
+ul {
+  list-style: disc;
+  padding-left: 1em;
+}
+
+  ul li {
+    padding-left: 0.5em;
+  }
+
+ol {
+  list-style: decimal;
+  padding-left: 1.25em;
+}
+
+  ol li {
+    padding-left: 0.25em;
+  }
+
+/* Table */
+table {
+	width: 100%;
+	text-align: left;
+}
+
+	table tbody tr:nth-child(2n+2) {
+		background: #f4f4f4;
+	}
+
+	table td {
+		padding: 0.5em 1em 0.5em 1em;
+	}
+
+	table th {
+		text-align: left;
+		padding: 0.5em 1em 0.5em 1em;
+		color: #fff;
+		background: #222729 url("images/overlay.png");
+	}
+
+	table thead {
+		background: #444;
+		color: #fff;
+	}
+
+	table tfoot {
+		background: #eee;
+	}
+

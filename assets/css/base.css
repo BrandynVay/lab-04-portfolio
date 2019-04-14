@@ -204,7 +204,7 @@ table {
   input[type="reset"]:hover,
   button:hover,
   .button:hover {
-    background-color: #9ececc;
+    background-color: teal;
   }
 
   input[type="button"]:active,
@@ -212,6 +212,6 @@ table {
   input[type="reset"]:active,
   button:active,
   .button:active {
-    background-color: #7eaeac;
+    background-color: black;
   }
 

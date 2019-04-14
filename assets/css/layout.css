@@ -1601,7 +1601,7 @@ section, article {
 
 		.image.featured {
 			display: block;
-			width: 100%;
+      width: 100%;
 			margin: 0 0 2em 0;
 		}
 
@@ -1929,7 +1929,7 @@ button,
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/galaxy-sky-banner.jpg");
 			}
 
 			#main > section.two {

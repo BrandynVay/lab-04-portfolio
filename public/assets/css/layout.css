@@ -1929,9 +1929,15 @@ button,
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/galaxy-sky-banner.jpg");
-			}
+        background-color: #81918E;
+      }
+      
+      #main > video.one {
+        position: absolute;
+        width: auto;
+        height: auto;
+        z-index: -100;
+      }
 
 			#main > section.two {
 				background-color: #f5fafa;

@@ -19,6 +19,6 @@
   "homepage": "https://github.com/KlNGU/lab-04#readme",
   "dependencies": {
     "dotenv": "^7.0.0",
-    "express": "^4.16.4"
+    "express": "^4.19.2"
   }
 }
